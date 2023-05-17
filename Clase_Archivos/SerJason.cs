@@ -24,9 +24,22 @@ namespace Clase_Archivos
             }
         }
 
-        public static List<Empleado> LeerDesdeJson()
+        public static List<Empleado> LeerDesdeJson(string rutaArchivo)
         {
+            List<Empleado> lista = new List<Empleado>();
+            
+            try
+            {
+                string json = File.ReadAllText(rutaArchivo);
+                lista = jsonConvert.DeserializeObject<List<Empleado>>(json);
+            }
+            catch(Exception ex) 
+            {
 
+                return null;
+            }
+
+            return lista;
         }
 
 
