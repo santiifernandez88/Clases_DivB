@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase5_B", "Clase5_B\Clase5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_Excepciones", "Clase_Excepciones\Clase_Excepciones.csproj", "{60C13390-EE4D-4C96-911B-8A02DB2416D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_Archivos", "Clase_Archivos\Clase_Archivos.csproj", "{EB9DEAA0-D30E-4D64-8B7D-FD2A53D0A7B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_Archivos", "Clase_Archivos\Clase_Archivos.csproj", "{EB9DEAA0-D30E-4D64-8B7D-FD2A53D0A7B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases_GenericosInterfaces", "Clases_GenericosInterfaces\Clases_GenericosInterfaces.csproj", "{F59DCE97-E16D-4693-9117-52FD44B29DB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EB9DEAA0-D30E-4D64-8B7D-FD2A53D0A7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB9DEAA0-D30E-4D64-8B7D-FD2A53D0A7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB9DEAA0-D30E-4D64-8B7D-FD2A53D0A7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59DCE97-E16D-4693-9117-52FD44B29DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59DCE97-E16D-4693-9117-52FD44B29DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59DCE97-E16D-4693-9117-52FD44B29DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59DCE97-E16D-4693-9117-52FD44B29DB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
