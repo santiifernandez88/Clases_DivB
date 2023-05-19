@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase4_B", "Clase4_B\Clase4_B.csproj", "{80C15BA5-6BEE-402E-A067-FFA317D96DCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_Enumerados", "Clase4_B\Clase_Enumerados.csproj", "{80C15BA5-6BEE-402E-A067-FFA317D96DCD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase5_B", "Clase5_B\Clase5_B.csproj", "{8D1C2F6B-32BB-4631-9845-E24DDCB0FBDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_ListasGenericas", "Clase5_B\Clase_ListasGenericas.csproj", "{8D1C2F6B-32BB-4631-9845-E24DDCB0FBDA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_Excepciones", "Clase_Excepciones\Clase_Excepciones.csproj", "{60C13390-EE4D-4C96-911B-8A02DB2416D8}"
 EndProject
