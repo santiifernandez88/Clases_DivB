@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace Clase_Archivos
         {
             try
             {
-                string json = JsonConverter.SerializeObject(lista,Newtonsoft.Json.Formattin,Indented):
+                string json = JsonConvert.SerializeObject(lista, Newtonsoft.Json.Formatting.Indented);
                 File.WriteAllText(rutaArchivo, json);
                 return true;
             }
@@ -31,7 +32,7 @@ namespace Clase_Archivos
             try
             {
                 string json = File.ReadAllText(rutaArchivo);
-                lista = jsonConvert.DeserializeObject<List<Empleado>>(json);
+                lista = JsonConvert.DeserializeObject<List<Empleado>>(json);
             }
             catch(Exception ex) 
             {

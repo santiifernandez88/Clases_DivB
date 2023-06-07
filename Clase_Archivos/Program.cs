@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //StreamWriter sw = new StreamWriter("nombre.txt", true); // se abre // el true es para seguir escribiendo el false para sobreescribir o crear
-            /*using (StreamWriter sw = new StreamWriter("nombre.txt")) // using bloque seguro de codigo // using un contexto de codigo
+            /*using (StreamWriter sw = new StreamWriter("nombre.txt")) // using bloque seguro de codigo // using un administrador contexto de codigo
             {
                 sw.WriteLine("Mi nombre es german"); // se usa
                 sw.WriteLine("Soy profe de utn");

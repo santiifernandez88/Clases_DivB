@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_Excepciones", "Clase_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_Archivos", "Clase_Archivos\Clase_Archivos.csproj", "{EB9DEAA0-D30E-4D64-8B7D-FD2A53D0A7B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases_GenericosInterfaces", "Clases_GenericosInterfaces\Clases_GenericosInterfaces.csproj", "{F59DCE97-E16D-4693-9117-52FD44B29DB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clases_GenericosInterfaces", "Clases_GenericosInterfaces\Clases_GenericosInterfaces.csproj", "{F59DCE97-E16D-4693-9117-52FD44B29DB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_DelegadosLambda", "Clase_DelegadosLambda\Clase_DelegadosLambda.csproj", "{D275729E-56C0-41C6-BBD1-F40F39D333EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F59DCE97-E16D-4693-9117-52FD44B29DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F59DCE97-E16D-4693-9117-52FD44B29DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F59DCE97-E16D-4693-9117-52FD44B29DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D275729E-56C0-41C6-BBD1-F40F39D333EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D275729E-56C0-41C6-BBD1-F40F39D333EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D275729E-56C0-41C6-BBD1-F40F39D333EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D275729E-56C0-41C6-BBD1-F40F39D333EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
