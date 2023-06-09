@@ -61,7 +61,9 @@ namespace Clase_Eventos
                 
                 if(this._combustible >= 0)
                 {
-
+                    AutoEventArgs e = new AutoEventArgs();
+                    e.CombustibleEnElTanque = this._combustible;
+                    SinCombustible(this, e);
                 }
             }
         }
