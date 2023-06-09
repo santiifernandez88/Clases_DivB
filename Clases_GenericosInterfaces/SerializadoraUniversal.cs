@@ -46,8 +46,6 @@ namespace Clases_GenericosInterfaces
                 {
                     XmlSerializer ser = new XmlSerializer(typeof(M));
                     ser.Serialize(sw, queSerializar);
-
-
                 }
             }
             catch(Exception ex) 
