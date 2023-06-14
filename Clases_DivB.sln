@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clases_GenericosInterfaces"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_DelegadosLambda", "Clase_DelegadosLambda\Clase_DelegadosLambda.csproj", "{D275729E-56C0-41C6-BBD1-F40F39D333EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_Eventos", "Clase_Eventos\Clase_Eventos.csproj", "{05095AD7-A5EF-40B3-9E40-08B25FA34098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_Eventos", "Clase_Eventos\Clase_Eventos.csproj", "{05095AD7-A5EF-40B3-9E40-08B25FA34098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_Hilos", "Clase_Hilos\Clase_Hilos.csproj", "{FDB0723D-4692-456F-B5B2-2D43F128F680}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{05095AD7-A5EF-40B3-9E40-08B25FA34098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05095AD7-A5EF-40B3-9E40-08B25FA34098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05095AD7-A5EF-40B3-9E40-08B25FA34098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB0723D-4692-456F-B5B2-2D43F128F680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB0723D-4692-456F-B5B2-2D43F128F680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB0723D-4692-456F-B5B2-2D43F128F680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB0723D-4692-456F-B5B2-2D43F128F680}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
