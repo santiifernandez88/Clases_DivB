@@ -81,7 +81,7 @@
 
             Action<string> delegadoActionString = Action1;
 
-            /* SumarDelegate sumarDel = new SumarDelegate(Sumar); // chequeo de tipos o seguridad de tipos
+             SumarDelegate sumarDel = new SumarDelegate(Sumar); // chequeo de tipos o seguridad de tipos
 
             SumarDelegate sumarDel = Sumar;
 
@@ -105,7 +105,7 @@
 
             MostrarLista(users);
             Console.WriteLine("===================");
-            //users.Sort(OrdenarPorNombre);
+            users.Sort(OrdenarPorNombre);
             users.Sort((user1, user2) => user1.Nombre.CompareTo(user2.Nombre)); // si se necesita mas 2 lineas de codigo se abren llaves
 
             //OrdenarUsuarios(users, (user1, user2) => user1.Nombre.CompareTo(user2.Nombre));
